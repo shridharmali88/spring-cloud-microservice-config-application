@@ -1,0 +1,13 @@
+# application configuration
+spring:
+  data:
+    mongodb:
+      uri: mongodb://ptMantraUser:LG04FMeqvWnFWGOQplC5@localhost:27017/micro-service?authSource=admin&readPreference=primary&directConnection=true&ssl=false
+
+# eureka configuration
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
